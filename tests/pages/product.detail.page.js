@@ -1,0 +1,5 @@
+export const sizeBox = '#option-label-size-143-item-166'
+export const colorBox = '#option-label-color-93-item-50'
+export const addtoCartBtn = '#product-addtocart-button'
+export const cartIcon = '.showcart'
+export const proceedtoCheckoutBtn = '#top-cart-btn-checkout'
