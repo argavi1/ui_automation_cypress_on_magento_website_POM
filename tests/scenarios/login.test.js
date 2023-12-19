@@ -10,7 +10,7 @@ describe('Login Test', function(){
         route.visit(ROUTES.login);
     });
 
-it.only('Successfull login', () => {
+it('Successfull login', () => {
     element.clearAndFillField(loginPage.emailField, 'testerjago@gmail.com');
     element.clearAndFillField(loginPage.passwordField, 'Password123');
     element.click(loginPage.signinBtn);
