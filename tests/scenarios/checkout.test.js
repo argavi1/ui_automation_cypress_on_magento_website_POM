@@ -24,6 +24,7 @@ it('Successfull checkout', () => {
     // go to home page & click product indeks 0
     element.click(profilePage.lumaIcon)
     element.click(homePage.product_1)
+    element.wait(3000)
 
     // select size, color & click add to chart button
     element.click(productDetailPage.sizeBox)

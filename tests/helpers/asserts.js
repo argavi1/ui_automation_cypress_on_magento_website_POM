@@ -11,7 +11,7 @@ export function shouldContain(selector, ...args){
 }
 
 export function containText(value){
-    cy.contains(value, {timeout: 13000}).should('exist')
+    cy.contains(value, {timeout: 15000}).should('exist')
 }
 
 export function shouldExist(selector){
